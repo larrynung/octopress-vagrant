@@ -6,7 +6,7 @@
 1. Clone blog reporsity to /home/vagrant/blog
 1. `vagrant up`
 1. `vagrant ssh`
-1. `cd octopress`
+1. `cd blog`
 1. `rake generate` 
 1. `rake preview`
 
