@@ -29,4 +29,10 @@ else
     #don't like doing this
     sudo su - vagrant -c "rbenv rehash && cd /home/vagrant/octopress/ && gem install bundler"
     sudo su - vagrant -c "cd /home/vagrant/octopress/ && bundle install"
+	
+	sudo apt-get update
+	sudo apt-get -y install vim
+	
+	echo 'export LC_ALL=en_US.UTF-8' >> $HOME/.bashrc
+	echo 'export LANG=en_US.UTF-8' >> $HOME/.bashrc
 fi
